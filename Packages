@@ -25,29 +25,29 @@ Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: ./debs/ChromaHomeBarX_arm.deb
-Size: 100676
-MD5sum: 4b898ac6455e9e3e87b78a56dff26086
-SHA1: 86f96ec1ffc06cdd714b4846ee0831742b01d1c0
-SHA256: 37772c276abeda94b381fd14a05070be29c645d540ff3fd87bfcd6cedb460a9d
+Size: 100736
+MD5sum: f0db10c0832f4d5011084eed5f328fb2
+SHA1: 700536e64a2db8fac6116d8d1c2d5afa3154db2e
+SHA256: 058078fccee6345a736a3b0fbdd73ecf20b70a9b1089e0246c1fdecd511f5c08
 Section: iPhoneOS-ARM
 Description: HomeBar in RGB
-Author: t.me/RocketClient2
+Author: t.me/RocketClient
 Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json&name=ChromaHomeBarX&dev=xeuka
 Icon: https://angstvorfrauen.github.io/icons/ChromaHomeBarX.png
 Name: ChromaHomeBarX
 Sileodepiction: https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json
 
 Package: com.eevee.spotify
-Version: 6.0.2
+Version: 6.0.13
 Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 408284
-MD5sum: e7646b449c97b96a93c3a2972c437494
-SHA1: 058ed91a62b3f36db43de0aa52eed4f2f922e98a
-SHA256: 2d43419c0f35557326fccd1bf6456254cb69ec36ca1e8b923aaad569d6d8ff82
+Size: 436664
+MD5sum: 137c81908dce9af44989c65a152cb010
+SHA1: caf4c8f887c8e36e4aa28accd3e03a46eaae8584
+SHA256: eec4ecc9cc7ebf2ce2893463eb37282a26ae66eba97f01377b7b14237ba68fbd
 Section: iPhoneOS-ARM
 Description: Free Spotify
 Author: t.me/RocketClient2
