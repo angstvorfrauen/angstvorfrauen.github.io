@@ -38,16 +38,16 @@ Name: ChromaHomeBarX
 Sileodepiction: https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json
 
 Package: com.eevee.spotify
-Version: 6.0.13
+Version: 6.1.5
 Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 436664
-MD5sum: 137c81908dce9af44989c65a152cb010
-SHA1: caf4c8f887c8e36e4aa28accd3e03a46eaae8584
-SHA256: eec4ecc9cc7ebf2ce2893463eb37282a26ae66eba97f01377b7b14237ba68fbd
+Size: 439820
+MD5sum: eb8fd4e04c1f79774898ab32e65968e4
+SHA1: 848f47e54874ba77338f560002cfe8596ad21907
+SHA256: 2d0f8050350c32f7931b9a136d2488d1dbadd9fe536672beb8052063790d5cfc
 Section: iPhoneOS-ARM
 Description: Free Spotify
 Author: t.me/RocketClient2
