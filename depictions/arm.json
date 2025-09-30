@@ -16,7 +16,7 @@
     {
       "class": "DepictionTableTextView",
       "title": "Architecture",
-      "text": "iphoneos-arm64"
+      "text": "iphoneos-arm"
     },
     {
       "class": "DepictionTableTextView",
@@ -48,4 +48,5 @@
       "spacing": 16
     }
   ]
+
 }
