@@ -1,3 +1,24 @@
+Package: Flex3beta
+Version: 1:3~Beta75
+Architecture: iphoneos-arm
+Maintainer: t.me/RocketClient2
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3Beta_arm.deb
+Size: 10093512
+MD5sum: e722bcba3b9677a7b76c1b83a4e2324b
+SHA1: b00de16ea3477ad6eff907b4a99856595b28105a
+SHA256: 5bf67fe84df039f9a422f6a9163c20eef3d89115b82f396364b0a03b14a74d26
+Section: iPhoneOS-ARM
+Description: Flex 3 Beta
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Flex3Beta&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/Flex3Beta.png
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+
 Package: com.eevee.spotify
 Version: 6.1.5
 Architecture: iphoneos-arm64
