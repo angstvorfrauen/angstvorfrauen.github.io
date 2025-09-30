@@ -82,14 +82,15 @@ Maintainer: Ethan Whited
 Installed-Size: 2756
 Depends: mobilesubstrate
 Filename: ./debs/GesturesXV_arm.deb
-Size: 2160368
-MD5sum: e1f97c208bd755136490dd272b98c74d
-SHA1: b852c316e8c9ef219ddc5cdac87f23c3af653f50
-SHA256: b6668d1a6ac0eb71d3a453bbf958e592100cfb6840582f34b7bd9b0ad77249a8
-Section: Tweaks
+Size: 2160216
+MD5sum: 89a409edf8a0cfe13f9ec048f232627d
+SHA1: dac36531c6ee6b9931acbfd8f22ad0c69afd45c7
+SHA256: 71ed22aae5e5322aa44d7941a2e95062139266bfb42a0734cfa2a15dd7a25c30
+Section: iPhoneOS-ARM
 Description: iPhone X gestures brought to older iPhones compatible with iOS 15
 Author: Ethan Whited
 Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/GesturesXV.png
 Name: GesturesXV
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
@@ -153,4 +154,48 @@ Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.
 Icon: https://angstvorfrauen.github.io/icons/Atria.png
 Name: Atria
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+
+Package: org.swift.protobuf.swiftprotobuf
+Version: 1.29.0
+Architecture: iphoneos-arm
+Maintainer: eevee
+Installed-Size: 10116
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+Filename: ./debs/swiftprotobuf_arm.deb
+Size: 1445368
+MD5sum: 11e50ed4c422ee6348a20fabb1f8d27a
+SHA1: fba01da03da09025e4e22f90b7a535005b73a811
+SHA256: c0af255af7798722c13fefdbc50e0680d4eccf0bb3b6c3a9216597e65619c6ad
+Section: Extra
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Author: eevee
+Name: SwiftProtobuf
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 629
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/libcolorpicker_arm.deb
+Size: 110772
+MD5sum: 06aaab677f75a5b162c5db63f08221b3
+SHA1: b83fd15a2dcbe344ef02c7d384ed39946479c7f1
+SHA256: d558540335704aaa9b6976c60a600a5756565501891af023147b0cb64f8667fb
+Section: Extra
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Description: color picker library for developers
+Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, cydia::obsolete
+Author: PixelFire <pixelfiredev@helpful.io>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Dev: pixelfiredev
+Name: libcolorpicker
+Sponsor: thebigboss.org <http://thebigboss.org>
 
