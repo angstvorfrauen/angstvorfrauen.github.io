@@ -1,0 +1,51 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionStackView",
+  "tintColor": "#FF0000",
+  "headerImage": "https://angstvorfrauen.github.io/images/banner.png",
+  "views": [
+    {
+      "class": "DepictionSeparatorView"
+    },
+    {
+      "class": "DepictionSubheaderView",
+      "useBoldText": true,
+      "useBottomMargin": false,
+      "title": "Information"
+    },
+    {
+      "class": "DepictionTableTextView",
+      "title": "Architecture",
+      "text": "iphoneos-arm64"
+    },
+    {
+      "class": "DepictionTableTextView",
+      "title": "Jailbreak Type",
+      "text": "Rootles"
+    },
+    {
+      "class": "DepictionTableTextView",
+      "title": "Creator",
+      "text": "Xeuka"
+    },
+    {
+      "class": "DepictionSpacerView",
+      "spacing": 16
+    },
+    {
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Telegram Channel",
+          "action": "https://t.me/RocketClient2",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionSpacerView",
+      "spacing": 16
+    }
+  ]
+}
