@@ -57,22 +57,22 @@ Name: EeveeSpotify
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm64.json
 
 Package: com.eevee.spotify
-Version: 6.1.5
+Version: 6.1.6
 Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
-Installed-Size: 1604
+Installed-Size: 1688
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 440008
-MD5sum: 1cf0bb3f086c3fd30b169f7a384c3924
-SHA1: 74d70217e03a04189266b07ff1c495aae1e0493a
-SHA256: 8956746526334a9b87ec01bc37a26c07157a933c5442655cb777ca832f4cea0c
+Size: 440424
+MD5sum: a9ddd074a23fcd570c4ddf5e7bef27cd
+SHA1: c7ec597997c5f0c0a0456ebbd538d2f3db4e04ea
+SHA256: 2d843071e6e406c7751a53fda036efccf7d617f8ebabea6020f7e1e344278d3f
 Section: iPhoneOS-ARM
 Description: Free Spotify
 Author: t.me/RocketClient2
 Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=EeveeSpotify&dev=xeuka
 Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
-Name: EeveeSpotify
+Name: EveeSpotify
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
 Package: com.nahtedetihw.gesturesxv
@@ -82,17 +82,14 @@ Maintainer: Ethan Whited
 Installed-Size: 2756
 Depends: mobilesubstrate
 Filename: ./debs/GesturesXV_arm.deb
-Size: 2160216
-MD5sum: 89a409edf8a0cfe13f9ec048f232627d
-SHA1: dac36531c6ee6b9931acbfd8f22ad0c69afd45c7
-SHA256: 71ed22aae5e5322aa44d7941a2e95062139266bfb42a0734cfa2a15dd7a25c30
-Section: iPhoneOS-ARM
+Size: 2161206
+MD5sum: 813e709d8e873727bb076b9043102945
+SHA1: 65f4f347c60112879cb649f4e089236e8fda67a9
+SHA256: 0be263c7f6466318054c0b12b57eb623e4b958d2167f703c75071f28807a6c8f
+Section: Tweaks
 Description: iPhone X gestures brought to older iPhones compatible with iOS 15
 Author: Ethan Whited
-Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
-Icon: https://angstvorfrauen.github.io/icons/GesturesXV.png
 Name: GesturesXV
-Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-3
@@ -114,6 +111,27 @@ Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.
 Icon: https://angstvorfrauen.github.io/icons/Filza.png
 Name: Filza File Manager
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+
+Package: com.tigisoftware.filza
+Version: 4.0.1-3
+Architecture: iphoneos-arm
+Maintainer: t.me/RocketClient2
+Installed-Size: 31815
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./debs/Filza_arm.deb
+Size: 10872924
+MD5sum: dc42f98bac6fb2d61bfa16e115c51385
+SHA1: 4b80d5c40411af1f11b9ff2fc1b53f28acba7423
+SHA256: d582a8bcd6660df6b9810d07ed07a3ae4729b768d812c5c9f24f79fe3229cb4e
+Section: iPhoneOS-ARM
+Description: Simple File Manager
+Tag: purpose::uikit
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/Filza.json&name=Filza&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/Filza.png
+Name: Filza File Manager
+Sileodepiction: https://angstvorfrauen.github.io/depictions/Filza.json
 
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
@@ -160,12 +178,14 @@ Version: 1.29.0
 Architecture: iphoneos-arm
 Maintainer: eevee
 Installed-Size: 10116
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 Filename: ./debs/SwiftProtobuf_arm.deb
-Size: 1445626
-MD5sum: 7e834a00e0d68568d39d9a142cc838ff
-SHA1: 0f9d7b2efcaa723e0d20ba4804fef02f46ca425c
-SHA256: 1e94534463a7066e25fb2a2a81c90b9e071c91a482677c5716d41dbe7c03c544
-Section: System
+Size: 1445368
+MD5sum: 11e50ed4c422ee6348a20fabb1f8d27a
+SHA1: fba01da03da09025e4e22f90b7a535005b73a811
+SHA256: c0af255af7798722c13fefdbc50e0680d4eccf0bb3b6c3a9216597e65619c6ad
+Section: Extra
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
@@ -176,15 +196,17 @@ Version: 1.6.9
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 629
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
 Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
 Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
 Filename: ./debs/LibColorpicker_arm.deb
-Size: 110620
-MD5sum: 76ac3303a769a551ba58a83855da19f5
-SHA1: c3aa95d2302ae22fac6344d131c58d6beecbe9b7
-SHA256: 5f3a37fd6b6e65da32fc8bcfedb74f13ba7ac5876b20968f04ea66fd68d12e6b
-Section: Development
+Size: 110772
+MD5sum: 06aaab677f75a5b162c5db63f08221b3
+SHA1: b83fd15a2dcbe344ef02c7d384ed39946479c7f1
+SHA256: d558540335704aaa9b6976c60a600a5756565501891af023147b0cb64f8667fb
+Section: Extra
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
 Description: color picker library for developers
