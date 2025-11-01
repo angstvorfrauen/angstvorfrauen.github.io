@@ -39,6 +39,25 @@ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
 Package: com.eevee.spotify
 Version: 6.1.5
+Architecture: iphoneos-arm
+Maintainer: t.me/RocketClient2
+Installed-Size: 1604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/EeveeSpotify_arm.deb
+Size: 440008
+MD5sum: 1cf0bb3f086c3fd30b169f7a384c3924
+SHA1: 74d70217e03a04189266b07ff1c495aae1e0493a
+SHA256: 8956746526334a9b87ec01bc37a26c07157a933c5442655cb777ca832f4cea0c
+Section: iPhoneOS-ARM
+Description: Free Spotify
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=EeveeSpotify&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
+Name: EeveeSpotify
+Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+
+Package: com.eevee.spotify
+Version: 6.1.5
 Architecture: iphoneos-arm64
 Maintainer: t.me/RocketClient2
 Installed-Size: 1604
@@ -55,25 +74,6 @@ Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.
 Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
 Name: EeveeSpotify
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm64.json
-
-Package: com.eevee.spotify
-Version: 6.1.6
-Architecture: iphoneos-arm
-Maintainer: t.me/RocketClient2
-Installed-Size: 1688
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/EeveeSpotify_arm.deb
-Size: 440424
-MD5sum: a9ddd074a23fcd570c4ddf5e7bef27cd
-SHA1: c7ec597997c5f0c0a0456ebbd538d2f3db4e04ea
-SHA256: 2d843071e6e406c7751a53fda036efccf7d617f8ebabea6020f7e1e344278d3f
-Section: iPhoneOS-ARM
-Description: Free Spotify
-Author: t.me/RocketClient2
-Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=EeveeSpotify&dev=xeuka
-Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
-Name: EveeSpotify
-Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
 Package: com.nahtedetihw.gesturesxv
 Version: 1.6
