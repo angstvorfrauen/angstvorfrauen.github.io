@@ -38,25 +38,6 @@ Name: ChromaHomeBarX
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 
 Package: com.eevee.spotify
-Version: 6.1.5
-Architecture: iphoneos-arm64
-Maintainer: t.me/RocketClient2
-Installed-Size: 1604
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/EeveeSpotify_arm64.deb
-Size: 439912
-MD5sum: b0af25e7b9fd00f2ddcc72999dddcce3
-SHA1: 30b6e662dfcde153e56632e4ebe934250d7c1f57
-SHA256: cc456b588d9aca898a8473e729de2f7d192a7b9e4e4c1e257da55b2d6841539b
-Section: iPhoneOS-ARM64
-Description: Free Spotify
-Author: t.me/RocketClient2
-Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm64.json&name=EeveeSpotify&dev=xeuka
-Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
-Name: EeveeSpotify
-Sileodepiction: https://angstvorfrauen.github.io/depictions/arm64.json
-
-Package: com.eevee.spotify
 Version: 6.2.1
 Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
@@ -74,6 +55,25 @@ Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.
 Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
 Name: EeveeSpotify
 Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
+
+Package: com.eevee.spotify
+Version: 6.2.2
+Architecture: iphoneos-arm64
+Maintainer: t.me/RocketClient2
+Installed-Size: 1732
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/EeveeSpotify_arm64.deb
+Size: 452412
+MD5sum: c0879f79adb291ae1ada2f70e65f0070
+SHA1: 0770ccf22df35f63f6bcaa4ca3ec7f2c4640f40f
+SHA256: 4b9b87b365b8d384c7bea4ec0e1d24fee60bc6b1871a094a8c5ee00b5ce892da
+Section: iPhoneOS-ARM64
+Description: Free Spotify
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm64.json&name=EeveeSpotify&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
+Name: EeveeSpotify
+Sileodepiction: https://angstvorfrauen.github.io/depictions/arm64.json
 
 Package: com.nahtedetihw.gesturesxv
 Version: 1.6
@@ -178,16 +178,37 @@ Version: 1.29.0
 Architecture: iphoneos-arm
 Maintainer: eevee
 Installed-Size: 10116
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm.json&name=Filza&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/arm.json
 Filename: ./debs/SwiftProtobuf_arm.deb
-Size: 1445626
-MD5sum: 7e834a00e0d68568d39d9a142cc838ff
-SHA1: 0f9d7b2efcaa723e0d20ba4804fef02f46ca425c
-SHA256: 1e94534463a7066e25fb2a2a81c90b9e071c91a482677c5716d41dbe7c03c544
-Section: System
+Size: 1445368
+MD5sum: 11e50ed4c422ee6348a20fabb1f8d27a
+SHA1: fba01da03da09025e4e22f90b7a535005b73a811
+SHA256: c0af255af7798722c13fefdbc50e0680d4eccf0bb3b6c3a9216597e65619c6ad
+Section: Extra
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
 Name: SwiftProtobuf
+
+Package: org.swift.protobuf.swiftprotobuf
+Version: 1.29.0
+Architecture: iphoneos-arm64
+Maintainer: t.me/RocketClient2
+Installed-Size: 10116
+Filename: ./debs/SwiftProtobuf_arm64.deb
+Size: 1445928
+MD5sum: 217aea9ecb48ccefe7c97ec7c18dc367
+SHA1: 686364b278424396fcd7c33359ba147eb0dc4cf6
+SHA256: fc9d1a019698333af2686ce8542f3b2a58aaa65e379c3a2ce96b6634a896aa23
+Section: Etc
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/arm64.json&name=EeveeSpotify&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
+Name: SwiftProtobuf
+Sileodepiction: https://angstvorfrauen.github.io/depictions/arm64.json
 
 Package: org.thebigboss.libcolorpicker
 Version: 1.6.9
